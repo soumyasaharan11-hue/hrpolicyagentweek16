@@ -14,3 +14,4 @@ services:
         value: week16-hr-policy-deployment
       - key: LANGCHAIN_TRACING_V2
         value: true
+
