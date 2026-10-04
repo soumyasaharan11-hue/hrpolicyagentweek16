@@ -3,7 +3,7 @@ services:
     name: hrpolicyweek16-api
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn shopassist_app:app --host 0.0.0.0 --port 10000
+    startCommand: uvicorn hr_policy:app --host 0.0.0.0 --port 10000
     healthCheckPath: /health
     envVars:
       - key: OPENAI_API_KEY
